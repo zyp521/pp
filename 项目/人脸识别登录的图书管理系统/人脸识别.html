@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人脸识别</title>
+    <style>
+        video, canvas {
+            border: 2px solid red;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<!--<video  width="300" height="300" id="myvideo"></video>
+    <canvas width="300" height="300" id="canvas"></canvas><br/>-->
+<video id="myvideo"></video>
+<canvas id="canvas" width="300" height="300"></canvas><br/>
+<button onclick="open_camera()">打开摄像头</button>
+<button onclick="catch_camera()">拍照</button>
+<script>
+    myvideo = document.getElementById("myvideo");
+
+    function open_camera() {
+
+        /*指定外部摄像头设备的宽和高*/
+        /*外部设备分为视频video或者是音频audio*/
+        cons = {
+            video: {
+                width: 300,
+                height: 300
+            }
+        };
+        cameras = navigator.mediaDevices.getUserMedia(cons);
+        /*一般情况下,then方法里面都是函数,参数就是摄像头中的内容*/
+        cameras.then(function (stream) {
+            myvideo.srcObject = stream;
+            myvideo.play();
+        })
+    }
+
+    function catch_camera() {
+        canvas = document.getElementById("canvas");
+        ctx = canvas.getContext("2d");
+        ctx.drawImage(myvideo, 0, 0, 300, 300);
+    }
+</script>
+
+</body>
+</html>
