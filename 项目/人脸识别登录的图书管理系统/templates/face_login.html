@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>人脸识别</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
     <style>
         video, canvas {
             border: 2px solid red;
@@ -18,6 +19,10 @@
 <canvas id="canvas" width="300" height="300"></canvas><br/>
 <button onclick="open_camera()">打开摄像头</button>
 <button onclick="catch_camera()">拍照</button>
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="img">
+    <input type="submit">
+</form>
 <script>
     myvideo = document.getElementById("myvideo");
 
@@ -43,6 +48,18 @@
         canvas = document.getElementById("canvas");
         ctx = canvas.getContext("2d");
         ctx.drawImage(myvideo, 0, 0, 300, 300);
+        datas = canvas.toDataURL();
+        console.log(datas);
+        $.post({
+            url: '/11',
+            type: 'post',
+            data: {'image': datas},
+            success: function (res) {
+                console.log(res)
+            }
+        })
+
+
     }
 </script>
 
