@@ -6,7 +6,7 @@ class MyDB:
         self.db = pymysql.connect(host=h, user=u, password=p, database=db, port=P)
         self.cursor = self.db.cursor()
 
-    def select(self, sql, data):
+    def select(self, sql, data=None):
         self.cursor.execute(sql, data)
         res = self.cursor.fetchall()
         return res

@@ -8,4 +8,4 @@ PASSWORD = "123123"
 DATABASE = "my_test"
 PORT = 3306
 
-Table_Info = ''
+Table = 'douluo_comment'
