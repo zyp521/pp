@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/jquery/jquery.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <script src="/static/vue.min.js"></script>
+    <script src="/static/vue-resource.js"></script>
+    <style>
+        .margin {
+            margin-top: 50px;
+        }
+
+        #search_key {
+            font-size: 18px;
+            height: 40px;
+        }
+
+        .search button {
+            font-size: 19px;
+        }
+
+        .item {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<!--顶部导航-->
+<nav class="nav navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">查车网</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登陆</a></li>
+                <li><a href="#">注册</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="app">
+    <!--搜索部分-->
+    <div class="row margin">
+        <div class="container">
+            <div class="input-group search">
+                <input class="form-control" type="text" name="search_key" id="search_key">
+                <span class="input-group-btn">
+                        <button class="btn btn-danger display-3" v-on:click="searchCar">
+                            搜索
+                        </button>
+                    </span>
+            </div>
+        </div>
+    </div>
+    <!--检索部分-->
+    <div class="container">
+        <div class="row search-item">
+            <ul class="nav navbar-nav">
+                <li><a>车价:</a></li>
+                <li><a href="#">3万以下</a></li>
+                <li><a href="#">3-5万</a></li>
+                <li><a href="#">5-8万</a></li>
+                <li><a href="#">8-10万</a></li>
+                <li><a href="#">10-15万</a></li>
+                <li><a href="#">15-20万</a></li>
+                <li><a href="#">30-50万</a></li>
+                <li><a href="#">50-100万</a></li>
+                <li><a href="#">100万以上</a></li>
+            </ul>
+        </div>
+        <div class="row search-item">
+            <ul class="nav navbar-nav">
+                <!---->
+                <li><a href="#">级别：</a></li>
+                <li><a href="#">微型车</a></li>
+                <li><a href="#">小型车</a></li>
+                <li><a href="#">紧凑型车</a></li>
+                <li><a href="#">中型车</a></li>
+                <li><a href="#">中大型车</a></li>
+                <li><a href="#">MPV</a></li>
+                <li><a href="#">SUV</a></li>
+                <li><a href="#">跑车</a></li>
+                <li><a href="#">皮卡</a></li>
+                <li><a href="#">面包车</a></li>
+            </ul>
+        </div>
+        <hr>
+    </div>
+    <!--内容部分-->
+    <div class="container table-bordered">
+
+        <div v-for="carDic in carList" class="item col-md-3">
+            <a href="#" class="thumbnail">
+                <img src=/static/images/c_01.jpg>
+            </a>
+            <p class="title">
+                {[carDic['_source']['c_name'] ]} {[carDic['_source']['c_date'] ]}款 525Li 2.0T 手自一体 领先型
+            </p>
+            <p class="description text-center">
+                {[carDic['_source']['c_date'] ]}年 | {[carDic['_source']['c_mileage'] ]}万公里 |
+                {[carDic['_source']['c_city'] ]}
+            </p>
+            <p class="price text-center">
+                <span style="color: red;font-size: 24px;">{[carDic['_source']['c_price'] ]}万</span>
+                <del style="color: grey;">原价21.00万</del>
+            </p>
+            <p class="our_label text-center">
+                {[carDic['_source']['c_sale'] ]}年保修 &nbsp; &nbsp; {[carDic['_source']['c_service'] ]}天可退
+            </p>
+        </div>
+
+        <nav style="text-align: center;">
+            <ul class="pagination">
+                <li><a href="#">上一页</a></li>
+                <li v-for="page in carPageList" v-on:click="getPage(page)"><a href="javascript:void 0;">{[page]}</a>
+                </li>
+                <li><a href="#">下一页</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- <nav style="text-align: center;">
+             <ul class="pagination">
+                 <li><a href="#">上一页</a></li>
+                 <li><a href="#">1</a></li>
+                 <li><a href="#">2</a></li>
+                 <li><a href="#">3</a></li>
+                 <li><a href="#">4</a></li>
+                 <li><a href="#">5</a></li>
+                 <li><a href="#">下一页</a></li>
+             </ul>
+         </nav>-->
+    </div>
+</div>
+
+
+<div class="container margin">
+    <hr>
+    <span>京ICP备案号：京ICP备15006372号-5       经营许可证编号：京B2-20190486       广播电视节目制作经营许可证：（京）字第13053号       网络文化经营许可证：京网文【2019】 1767-167号</span>
+</div>
+</body>
+
+<script>
+    $(function () {
+
+        new Vue({
+            el: "#app",
+            data: {
+                carList: [],
+                carPageList: []
+            },
+            delimiters: ['{[', ']}'],
+
+            created: function () {
+                var url = '/carjson4/';
+                this.getDatas(url);
+            },
+            methods: {
+                getDatas: function (url) {
+                    this.$http.get(url).then(
+                        function (result) {
+                            alert('success');
+                            console.log(result);
+                            this.carList = result.data.hits.hits;
+                            this.carPageList = result.data.page_num_list;
+                        },
+                        function (result) {
+                            alert('error');
+                        }
+                    );
+                },
+
+                //搜索功能
+                searchCar: function () {
+                    var search_key = $("#search_key").val();
+                    var url = '/carjson4/?search_key=' + search_key;
+                    this.getDatas(url);
+                },
+
+                // 翻页
+                getPage: function (page) {
+                    //alert(page);
+                    // 获取搜索内容
+                    var search_key = $("#search_key").val();
+                    var url = '/carjson4/?page=' + page + '&search_key=' + search_key;
+                    this.getDatas(url);
+                }
+            }
+
+        });
+
+
+    })
+
+
+</script>
+
+</html>

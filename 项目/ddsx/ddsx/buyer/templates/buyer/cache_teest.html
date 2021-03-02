@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% comment %}{% load cache %}{% endcomment %}
+<head>
+    <meta charset="UTF-8">
+    <title>缓存</title>
+</head>
+<body>
+<h1>缓存</h1>
+{% comment %}{% cache 10 aa %}
+    {{ ctime }}
+{% endcache %}
+<br/>
+{{ dtime }}{% endcomment %}
+
+{{ name }}
+
+</body>
+</html>

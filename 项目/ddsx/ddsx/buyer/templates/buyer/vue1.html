@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue使用</title>
+    <script src="/static/buyer/js/jquery.min.js"></script>
+    <script src="/static/buyer/js/vue.min.js"></script>
+</head>
+<body>
+<h1>vue使用</h1>
+{#告诉django 不要解析 里面的内容#}
+{% verbatim %}
+<div id="app">
+    <!--变量显示-->
+    {{ msg }}
+    <!--绑定属性-->
+    <a v-bind:href="url">百度</a>
+    <a href="http://www.baidu.com">百度</a> <br/>
+    <!-- 判断-->
+    <p v-if="flag">
+        哈哈
+    </p>
+    <!--for循环-->
+    <ul>
+        <li v-for="game in gameList">{{ game }}</li>
+    </ul>
+
+    <button v-on:click="test">按钮</button>
+
+</div>
+
+{% endverbatim %}
+</body>
+
+<script>
+    $(function () {
+        new Vue({
+            el: "#app", // element 绑定页面的范围
+            data: { // 接受数据
+                msg: 'hello vue',
+                url: 'http://www.baidu.com',
+                flag: true,
+                gameList: ['LOL', 'CF', 'COC', 'DNF']
+            },
+            methods: {
+                // 绑定事件
+                test: function () {
+                    alert('我是弹框...');
+                }
+            },
+            // 创建方法。
+            created: function () {
+                alert('创建完成了...');
+            }
+        })
+    })
+
+</script>
+
+
+</html>

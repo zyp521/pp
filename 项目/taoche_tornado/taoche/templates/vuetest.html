@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回顾vue</title>
+    <script src="/static/jquery/jquery.min.js"></script>
+    <script src="/static/vue.min.js"></script>
+    <script src="/static/vue-resource.js"></script>
+</head>
+<body>
+<h1>回顾vue</h1>
+<div id="app">
+    {[msg]}
+    <ul>
+        <li v-for="hero in heroList">{[hero]}</li>
+    </ul>
+    <button v-on:click="dja(1)">点我啊</button>
+</div>
+
+</body>
+<script>
+    $(function () {
+        new Vue({
+            el: "#app",
+            data: {
+                msg: 'hello tornado',
+                heroList: ['芈月', '甄姬', '安其拉', '妲己']
+            },
+            delimiters: ["{[", "]}"],  // 修改vue变量显示语法
+            methods: {
+                'dja': function (result) {
+                    alert('你过来啊');
+                    alert(result)
+                }
+            },
+            created: function () {
+                // 发送ajax
+                var url = '/vueajax/';
+                this.$http.get(url).then(
+                    function (result) {
+                        alert('sucess')
+                    },
+                    function (result) {
+                        alert('error')
+                    }
+                )
+            }
+        });
+    })
+</script>
+</html>

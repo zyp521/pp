@@ -1,0 +1,6 @@
+1.settings.py  --->> 配置信息
+2.models.py   --->> 创建模型类
+3.views.py --->> 视图
+4.urls.py   --->> 编写路由
+5.app.py   ---->> 创建application对象
+6.manage.py -->> 管理项目

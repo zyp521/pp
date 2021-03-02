@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/jquery.min.js"></script>
+</head>
+<body>
+测试...
+<script>
+    $(function () {
+        $.ajax({
+            url: '/ajaxtest/',// 发送的请求地址
+            type: 'get',// 发送请求的方式， get、post...
+            success: function (result) { // 表示访问后台成功后执行函数
+                alert('success');
+                console.log(result);
+                console.log(result.status);
+            },
+            error: function (result) {// 当访问后台失败后执行的函数
+                alert('error');
+            }
+        })
+    })
+</script>
+</body>
+</html>
+

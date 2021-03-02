@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>评论数据分析报告</title>
+    <style>
+        p {
+            text-indent: 2em;
+        }
+    </style>
+</head>
+<body>
+<center><h1>斗罗大陆评论分析报告</h1></center>
+<h3>一、数据分析目的</h3>
+<ul style="list-style:none">
+    <li>1.好评、一般和差评占比</li>
+    <li>2.找出评论关键词</li>
+    <li>3.训练评论好坏识别模型，验证模型准确率</li>
+</ul>
+<h3>二、数据分析的数据来源</h3>
+<p>本次分析数据来源于豆瓣网站，具体数据是针对斗罗大陆真人版在豆瓣网站评论的爬取数据</p>
+<h3>三、数据分析过程</h3>
+<p>针对问题一：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选取所有评论的星级标题数据，按星级对评论数据进行分组，在求取每组内数据的总和，使用饼状图进行占比显示。</p>
+{{comment_zbt|safe}}
+<p>针对问题二：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选取所有评论主体内容，对每一条记录使用jieba进行分词，按百度停用词库，去除停用词，最后使用词袋模型，统计词频，生成词云图。</p>
+{{comment_wordcloud|safe}}
+<h3>四、数据分析结论</h3>
+<p></p>
+<p align="right">数据分析报告人：周云鹏</p>
+<p align="right">数据分析责任人：主管</p>
+<p></p>
+</body>
+</html>

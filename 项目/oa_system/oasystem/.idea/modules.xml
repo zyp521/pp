@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../virtualenv/Django_vitual/ddsx/.idea/ddsx.iml" filepath="$PROJECT_DIR$/../../../../virtualenv/Django_vitual/ddsx/.idea/ddsx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oasystem.iml" filepath="$PROJECT_DIR$/.idea/oasystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../virtualenv/tornado/淘车网/.idea/淘车网.iml" filepath="$PROJECT_DIR$/../../../../virtualenv/tornado/淘车网/.idea/淘车网.iml" />
+    </modules>
+  </component>
+</project>

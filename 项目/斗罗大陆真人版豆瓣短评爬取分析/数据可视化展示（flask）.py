@@ -5,7 +5,7 @@ import settings
 
 db = MyDB(h=settings.HOST, u=settings.USER, p=settings.PASSWORD, db=settings.DATABASE)
 
-app = Flask(__name__,static_url_path='statics',static_folder='statics')
+app = Flask(__name__,static_folder='statics')
 
 
 @app.route('/')
@@ -32,12 +32,12 @@ def find_comment():
 
 @app.route('/report')
 def analysis_report():
-
-
-    return '数据分析报告'
+    from data_analysis import comment_wordcloud, comment_zbt
+    return render_template('analysis_report.html', **locals())
 
 
 if __name__ == '__main__':
-    # 解决浏览器显示编码问题
+    # 解决浏览器显示编码问题\
+    print(app.url_map)
     app.config['JSON_AS_ASCII'] = False
     app.run(host='0.0.0.0', port=5000)
