@@ -1,6 +1,8 @@
 import pandas as pd
 import jieba
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB,GaussianNB
 from pyecharts.charts import Pie,WordCloud
 import pyecharts.options as opts
 
@@ -52,9 +54,11 @@ words_list = jieba.lcut(''.join(out2))
 
 
 # 停用词去除
+stop_words =[]
 with open('./statics/cn_stopwords.txt', encoding='utf-8') as f:
     for i in f:
         i = i.strip()
+        stop_words.append(i)
         if i in words_list:
             while words_list.count(i):
                 words_list.remove(i)
@@ -71,3 +75,23 @@ wc.add('评价词云图', words, word_size_range=[20, 100],
        textstyle_opts=opts.TextStyleOpts(font_family="cursive"))
 comment_wordcloud = wc.render_embed()
 
+#   3.训练评论识别模型，验证模型准确率
+print(data)
+data_ = [' '.join(jieba.cut(i))for i in data['comment']]
+# 词频统计
+# cv = CountVectorizer(stop_words=stop_words)
+# out = cv.fit_transform(data_).toarray()
+# print(cv.get_feature_names())
+
+
+
+# 词频逆词频分析
+cv_tfidf = TfidfVectorizer(stop_words=stop_words)
+out = cv_tfidf.fit_transform(data_).toarray()
+
+# 使用多项式朴素贝叶斯简历评论分析模型
+# nb = MultinomialNB()
+nb = GaussianNB()
+x_train, x_test, y_train, y_test = train_test_split(out, data['type'], test_size=0.2, random_state=1)
+nb.fit(x_train, y_train)
+print(nb.score(x_test, y_test))

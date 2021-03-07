@@ -7,6 +7,9 @@
         p {
             text-indent: 2em;
         }
+        div {
+            padding-left: 30px;
+        }
     </style>
 </head>
 <body>
@@ -22,12 +25,13 @@
 <h3>三、数据分析过程</h3>
 <p>针对问题一：</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选取所有评论的星级标题数据，按星级对评论数据进行分组，在求取每组内数据的总和，使用饼状图进行占比显示。</p>
-{{comment_zbt|safe}}
+<div>{{comment_zbt|safe}}</div>
+
 <p>针对问题二：</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选取所有评论主体内容，对每一条记录使用jieba进行分词，按百度停用词库，去除停用词，最后使用词袋模型，统计词频，生成词云图。</p>
 {{comment_wordcloud|safe}}
 <h3>四、数据分析结论</h3>
-<p></p>
+<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 <p align="right">数据分析报告人：周云鹏</p>
 <p align="right">数据分析责任人：主管</p>
 <p></p>

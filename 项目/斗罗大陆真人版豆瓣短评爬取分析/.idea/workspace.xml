@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5841d06a-09b1-4712-8209-e2b642d82170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/analysis_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../数据分析/a.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/MongoDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../资料库/numpy_matplotlib_pandas.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../资料库/numpy_matplotlib_pandas.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../资料库/python基础.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../资料库/python基础.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../资料库/机器学习.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../资料库/机器学习.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据可视化展示（flask）.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据可视化展示（flask）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/analysis_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/analysis_report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,48 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据可视化展示（flask）.py">
+        <entry file="file://$PROJECT_DIR$/MongoDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="35" column="61" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="61" />
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/analysis_report.html">
+        <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#401#407#0" expanded="true" />
-                <element signature="e#407#413#0" expanded="true" />
-                <element signature="e#413#419#0" expanded="true" />
-                <element signature="e#419#425#0" expanded="true" />
-                <element signature="e#425#431#0" expanded="true" />
-                <element signature="e#473#479#0" expanded="true" />
-                <element signature="e#479#485#0" expanded="true" />
-                <element signature="e#485#491#0" expanded="true" />
-                <element signature="e#491#497#0" expanded="true" />
-                <element signature="e#497#503#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyDB_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -68,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -90,20 +76,22 @@
         <option value="$PROJECT_DIR$/评论数据爬取.py" />
         <option value="$PROJECT_DIR$/MyDB_.py" />
         <option value="$PROJECT_DIR$/评论数据爬取与存储.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/评论数据分析.py" />
         <option value="$PROJECT_DIR$/statics/cn_stopwords.txt" />
         <option value="$PROJECT_DIR$/数据分析模块.py" />
         <option value="$PROJECT_DIR$/templates/template.html" />
-        <option value="$PROJECT_DIR$/templates/analysis_report.html" />
         <option value="$PROJECT_DIR$/数据可视化展示（flask）.py" />
+        <option value="$PROJECT_DIR$/templates/analysis_report.html" />
+        <option value="$PROJECT_DIR$/data_analysis.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/MongoDB.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-51" />
-    <option name="y" value="43" />
-    <option name="width" value="1719" />
+    <option name="x" value="700" />
+    <option name="y" value="142" />
+    <option name="width" value="1677" />
     <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,24 +102,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="斗罗大陆真人版豆瓣短评爬取分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="斗罗大陆真人版豆瓣短评爬取分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="斗罗大陆真人版豆瓣短评爬取分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="斗罗大陆真人版豆瓣短评爬取分析" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="斗罗大陆真人版豆瓣短评爬取分析" type="b2602c69:ProjectViewProjectNode" />
-              <item name="斗罗大陆真人版豆瓣短评爬取分析" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="斗罗大陆真人版豆瓣短评爬取分析" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -144,6 +117,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.数据可视化展示（flask）">
+  <component name="RunManager" selected="Python.data_analysis">
     <configuration name="评论数据爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="斗罗大陆真人版豆瓣短评爬取分析" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,6 +283,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="斗罗大陆真人版豆瓣短评爬取分析" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="数据可视化展示（flask）" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="斗罗大陆真人版豆瓣短评爬取分析" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -333,8 +329,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_analysis" />
         <item itemvalue="Python.数据可视化展示（flask）" />
-        <item itemvalue="Python.数据分析模块" />
         <item itemvalue="Python.评论数据爬取" />
       </list>
     </recent_temporary>
@@ -353,7 +349,9 @@
       <workItem from="1614130526745" duration="21431000" />
       <workItem from="1614214779320" duration="16985000" />
       <workItem from="1614672250575" duration="3735000" />
-      <workItem from="1614678761997" duration="9609000" />
+      <workItem from="1614678761997" duration="16636000" />
+      <workItem from="1614729696450" duration="5706000" />
+      <workItem from="1614825840565" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="2021/2/22">
       <created>1613998896372</created>
@@ -373,18 +371,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61126000" />
+    <option name="totallyTimeSpent" value="73871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="29" width="1146" height="678" extended-state="0" />
+    <frame x="467" y="95" width="1118" height="678" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22702205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21320754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.056776557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.053285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2014652" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -392,7 +390,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.40674955" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.053285968" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24175824" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -411,8 +409,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$MyDB.coverage" NAME="MyDB Coverage Results" MODIFIED="1613999847578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1614697135208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$.coverage" NAME="数据分析模块 Coverage Results" MODIFIED="1614683616570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$flask.coverage" NAME="数据可视化展示（flask） Coverage Results" MODIFIED="1614689020716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$flask.coverage" NAME="数据可视化展示（flask） Coverage Results" MODIFIED="1614690002662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/lxml/html/__init__.py">
@@ -453,13 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="131" column="9" selection-start-line="129" selection-start-column="11" selection-end-line="131" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyDB_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -532,57 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/评论数据爬取与存储.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/analysis_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#401#407#0" expanded="true" />
-            <element signature="e#407#413#0" expanded="true" />
-            <element signature="e#413#419#0" expanded="true" />
-            <element signature="e#419#425#0" expanded="true" />
-            <element signature="e#425#431#0" expanded="true" />
-            <element signature="e#473#479#0" expanded="true" />
-            <element signature="e#479#485#0" expanded="true" />
-            <element signature="e#485#491#0" expanded="true" />
-            <element signature="e#491#497#0" expanded="true" />
-            <element signature="e#497#503#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,13 +538,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-823">
+          <caret line="2075" column="4" selection-start-line="2075" selection-start-column="4" selection-end-line="2075" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32490">
+          <caret line="1731" column="8" selection-start-line="1731" selection-start-column="8" selection-end-line="1731" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据可视化展示（flask）.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="61" />
+        <state relative-caret-position="570">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analysis_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/评论数据爬取与存储.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/pymongo/mongo_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyDB_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
