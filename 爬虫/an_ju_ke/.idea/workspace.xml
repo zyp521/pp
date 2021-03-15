@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb3d1d64-9154-4fdd-8ca4-6e187ec43cf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/an_ju_ke.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110566670382633.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110566673473406.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056667807895.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110566820531843.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056682417417.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110566831672297.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056697227511.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056697523851.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110566980657938.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567126358101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567129956222.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056713538358.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567278540468.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567281707106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567285676434.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567429326541.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056743259148.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567436696427.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567581116297.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567584130363.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567589418793.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao161105677336229.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567736538253.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567742834358.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567887649453.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567891016545.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110567897296653.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568041319773.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056804490201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568049421024.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao161105681938096.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056819839318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568206364732.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568345000784.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568348668783.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568354321878.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568497136383.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao161105685039824.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568505393484.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568649921706.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056865416613.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056866016235.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568804775424.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568809481556.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568815357654.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568957133288.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056895974131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110568966409934.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao161105693747018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao16110569378701792.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_data/taobao1611056938260294.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_code/taobao_mitmproxy/taobao_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/.idea/斗罗大陆真人版豆瓣短评爬取分析.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/MongoDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/MyDB_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/data_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/statics/cn_stopwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/statics/douluo_comment.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/templates/analysis_report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/templates/douluo_comment_zb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/templates/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/templates/评论词云图.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/提取数据库数据.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/数据可视化展示（flask）.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/斗罗大陆真人版豆瓣短评爬取分析/评论数据爬取与存储.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/an_ju_ke/spiders/ajk_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/an_ju_ke/settings.py" />
+        <option value="$PROJECT_DIR$/an_ju_ke/spiders/ajk_spider.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="36" />
+    <option name="y" value="21" />
+    <option name="width" value="1677" />
+    <option name="height" value="1017" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb3d1d64-9154-4fdd-8ca4-6e187ec43cf2" name="Default Changelist" comment="" />
+      <created>1615080936907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615080936907</updated>
+      <workItem from="1615080941692" duration="1066000" />
+      <workItem from="1615123104919" duration="143000" />
+    </task>
+    <task id="LOCAL-00001" summary="2021/3/7">
+      <created>1615080987220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615080987220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1209000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2174616" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.20959148" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2021/3/7" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/3/7" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/an_ju_ke/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="69" column="64" lean-forward="true" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/an_ju_ke/spiders/ajk_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

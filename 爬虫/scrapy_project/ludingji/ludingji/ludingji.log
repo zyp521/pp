@@ -1,0 +1,251 @@
+2020-11-28 09:58:18 [scrapy.extensions.telnet] INFO: Telnet Password: 9fff35065da88f53
+2020-11-28 09:58:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-11-28 09:58:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-11-28 09:58:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-11-28 09:58:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-11-28 09:58:18 [scrapy.core.engine] INFO: Spider opened
+2020-11-28 09:58:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-11-28 09:58:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-11-28 09:58:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624.html> (referer: None)
+2020-11-28 09:58:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36950.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36992.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36949.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36947.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36995.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36996.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36948.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36994.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36991.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36993.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36989.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36990.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36988.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36984.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36983.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36985.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36987.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36986.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36981.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36982.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36975.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36976.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36973.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36980.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36978.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36977.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36979.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36974.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36970.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36968.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36967.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36972.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36971.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36965.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 09:58:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36964.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:11 [scrapy.extensions.telnet] INFO: Telnet Password: 7d56614acaa19d67
+2020-11-28 10:05:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-11-28 10:05:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-11-28 10:05:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-11-28 10:05:11 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-11-28 10:05:11 [scrapy.core.engine] INFO: Spider opened
+2020-11-28 10:05:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-11-28 10:05:11 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-11-28 10:05:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624.html> (referer: None)
+2020-11-28 10:05:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36947.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36975.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36982.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36979.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36978.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36976.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36973.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36980.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:22:59 [scrapy.extensions.telnet] INFO: Telnet Password: 3ef62f439262f899
+2020-11-28 10:22:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-11-28 10:22:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-11-28 10:22:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-11-28 10:22:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-11-28 10:22:59 [scrapy.core.engine] INFO: Spider opened
+2020-11-28 10:22:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-11-28 10:22:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-11-28 10:23:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624.html> (referer: None)
+2020-11-28 10:23:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36947.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36978.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36981.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36982.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36985.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36984.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36983.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36976.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36975.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36980.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36977.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36979.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36974.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36973.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36992.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36972.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36971.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36996.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36995.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36994.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36993.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:23 [scrapy.extensions.telnet] INFO: Telnet Password: 60f2bb5fce377076
+2020-11-28 10:24:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-11-28 10:24:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-11-28 10:24:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-11-28 10:24:23 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-11-28 10:24:23 [scrapy.core.engine] INFO: Spider opened
+2020-11-28 10:24:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-11-28 10:24:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-11-28 10:24:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624.html> (referer: None)
+2020-11-28 10:24:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36969.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36961.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36967.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36964.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36962.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36968.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36966.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36960.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36958.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36965.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36959.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36963.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36957.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36956.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36996.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36995.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36994.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36955.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36990.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36989.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36992.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36988.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36993.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36987.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36982.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36984.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36954.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36986.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36983.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36985.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36979.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36978.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36981.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36991.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36977.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36975.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36976.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36980.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36974.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36971.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36953.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36952.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36950.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36973.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36972.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36949.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36948.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36947.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36951.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.kanunu8.com/wuxia/201102/1624/36970.html> (referer: https://www.kanunu8.com/wuxia/201102/1624.html)
+2020-11-28 10:24:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-11-28 10:24:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 22417,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 1494482,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'elapsed_time_seconds': 6.440369,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 11, 28, 2, 24, 30, 148135),
+ 'log_count/DEBUG': 51,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2020, 11, 28, 2, 24, 23, 707766)}
+2020-11-28 10:24:30 [scrapy.core.engine] INFO: Spider closed (finished)

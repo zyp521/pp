@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公关导航示例</title>
+    <style>
+        #container,#result{
+            width:500px;
+            height:500px;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+</head>
+<body>
+    <p>请输入起始点:<input type="text" id="start"/></p>
+    <p>请输入终止点:<input type="text" id="end"/></p>
+    <button onclick="bus()">步行导航</button><br/>
+    <div id="container"></div>
+    <div id="result"></div>
+    <script>
+        /*需求:最开始页面显示是北京，两个输入框，第一个输入框是起始点
+        第二个输入框是终止点，点击按钮"公交导航",显示"公交导航"的
+        相应结果.
+         */
+        map=new BMap.Map("container")
+        map.centerAndZoom("北京")
+        function bus() {
+            /*取两个输入框内输入的起始点的值,取值的话必须跟value*/
+            start = document.getElementById("start").value
+            end = document.getElementById("end").value
+            walking = new BMap.WalkingRoute(map, {
+                /*renderOptions里面只有map，只能看一条线*/
+                /*如果要看公交导航的文字信息，
+                加入一个panel结果面板的显示
+                同时需要一个结果面板的div，id为result*/
+                renderOptions: {map: map,panel: 'result'},
+            })
+            walking.search(start, end)
+        }
+    </script>
+</body>
+</html>
