@@ -5,7 +5,7 @@ import numpy as np
 
 pd.set_option('display.max_column',None)
 # 1. 将数据做存储并且设置前三列为合适的索引
-out = pd.read_csv('./pandas_exercise/exercise_data/wind.data', sep='\s+', parse_dates=[['Yr', 'Mo', 'Dy']])
+out = pd.read_table('./pandas_exercise/exercise_data/wind.data', sep='\s+', parse_dates=[['Yr', 'Mo', 'Dy']])
 print(out)
 
 # 2. 2061年？我们真的有这一年的数据？创建一个函数并用它去修复这个bug
@@ -51,15 +51,18 @@ day_stats['std'] = out.std(axis=1)
 # print(day_stats.head())
 
 # 9.对于每一个location，计算一月份的平均风速
+
 out['date'] = out.index
-out['month'] = out['date'].apply(lambda date: date.month)
+out['month'] = out['date'].apply(lambda date: date.month)  # 拆分日期分别为年月日，方便使用query取月、日、年、
 out['year'] = out['date'].apply(lambda date: date.year)
 out['day'] = out['date'].apply(lambda date: date.day)
-january_winds = out.query()
+print(out)
+january_winds = out.query('month == 1')  # query参数是字符串规则
+print(january_winds.loc[:, 'RPT':'MAL'].mean())
 
 
 # 10. 对于数据记录按照年为频率取样
 # print(out.resample('A').mean())
-
+print(out.query('month==1 and day==1'))
 # 11. 对于数据记录按照月为频率取样
 # print(out.resample('M').mean())
