@@ -75,9 +75,9 @@ wc.add('评价词云图', words, word_size_range=[20, 100],
        textstyle_opts=opts.TextStyleOpts(font_family="cursive"))
 comment_wordcloud = wc.render_embed()
 
-#   3.训练评论识别模型，验证模型准确率
+# 3.训练评论识别模型，验证模型准确率
 print(data)
-data_ = [' '.join(jieba.cut(i))for i in data['comment']]
+data_ = [' '.join(jieba.cut(i))for i in data['comment']] # 生成包含所有的空格分割的文本字符串的列表
 # 词频统计
 # cv = CountVectorizer(stop_words=stop_words)
 # out = cv.fit_transform(data_).toarray()
@@ -85,7 +85,7 @@ data_ = [' '.join(jieba.cut(i))for i in data['comment']]
 
 
 
-# 词频逆词频分析
+# 词频逆词频处理
 cv_tfidf = TfidfVectorizer(stop_words=stop_words)
 out = cv_tfidf.fit_transform(data_).toarray()
 

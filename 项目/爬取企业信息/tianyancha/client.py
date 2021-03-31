@@ -55,9 +55,9 @@ class TycClient:
             if detail.get("state") == 'ok':
                 td = detail.get("data", {})
                 company = Company()
-                # 复制主体信息
+                # 复制主体信息到新建company实列
                 TycClient.TycEntHelper.__copy_props__(t, company)
-                # 复制公司组织代码、注册资本
+                # 复制公司组织代码、注册资本到新建company实例
                 TycClient.TycEntHelper.__copy_extras__(td, company)
                 self.companies.append(company)
 

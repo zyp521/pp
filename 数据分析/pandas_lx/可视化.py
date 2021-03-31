@@ -32,6 +32,7 @@ print(out2.isnull().sum())
 out1 = out1.loc[out1.Age.notnull(), :]
 out2 = out2.loc[out2.Age.notnull(), :]
 print(out1.max(), out2.max())
+
 scatter = Scatter(init_opts=opts.InitOpts(width='1200px', height='600px', bg_color='#f8f8f8'))
 scatter.add_xaxis([i for i in range(0, 81, 1)])
 scatter.add_yaxis(series_name='male', y_axis=out1.Fare.values.tolist(), label_opts=opts.LabelOpts(is_show=False))
@@ -53,6 +54,7 @@ scatter.render('./pandas_exercise/template/scatter.html')
 print('生还人数', data.Survived.sum())
 
 # 5. 绘制一个展示船票价格的直方图
+
 bar = Bar()
 print(data.Fare.describe())
 data['Fare_'] = pd.cut(data.Fare, bins=[i for i in range(0, 600, 10)])
@@ -60,7 +62,7 @@ out = data[['Fare', 'Fare_']]
 out = out.groupby(by='Fare_')[['Fare']].count()
 bar.add_xaxis(list(range(0, 600, 10)))
 bar.add_yaxis('票价', out.Fare.values.tolist(), category_gap=0, markpoint_opts=opts.MarkPointOpts(
-    data=[opts.MarkPointItem(type_='min'), opts.MarkPointItem(type_='max')], symbol='circle',symbol_size=30))
+    data=[opts.MarkPointItem(type_='min'), opts.MarkPointItem(type_='max')], symbol='circle', symbol_size=30))
 bar.set_series_opts(label_opts=opts.LabelOpts(is_show=False))
 bar.render('./pandas_exercise/template/bar_base.html')
 

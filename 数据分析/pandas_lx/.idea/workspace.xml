@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7052d0-d340-4012-8a3e-cdec3b8a82dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/删除数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/时间序列2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/可视化.py" beforeDir="false" afterPath="$PROJECT_DIR$/可视化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/时间序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/时间序列1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/统计.py" beforeDir="false" afterPath="$PROJECT_DIR$/统计.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/时间序列2.py" beforeDir="false" afterPath="$PROJECT_DIR$/时间序列2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../爬虫/dangdangwang.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../资料库/numpy_matplotlib_pandas.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../资料库/numpy_matplotlib_pandas.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../资料库/python基础.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../资料库/python基础.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../项目/爬取企业信息/tianyancha/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../项目/爬取企业信息/tianyancha/client.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,41 +16,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/可视化.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/时间序列2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+            <state relative-caret-position="400">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时间序列1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时间序列2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/删除数据.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -82,17 +73,18 @@
         <option value="$PROJECT_DIR$/apply函数.py" />
         <option value="$PROJECT_DIR$/合并.py" />
         <option value="$PROJECT_DIR$/统计.py" />
+        <option value="$PROJECT_DIR$/删除数据.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ef8c04e8-57d5-49df-92d7-b48b1ecc617e/console.sql" />
         <option value="$PROJECT_DIR$/可视化.py" />
         <option value="$PROJECT_DIR$/时间序列2.py" />
-        <option value="$PROJECT_DIR$/删除数据.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="291" />
-    <option name="y" value="40" />
-    <option name="width" value="1946" />
-    <option name="height" value="998" />
+    <option name="x" value="-15" />
+    <option name="y" value="87" />
+    <option name="width" value="1938" />
+    <option name="height" value="1071" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,32 +93,12 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pandas_lx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pandas_lx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pandas_lx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pandas_lx" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas_exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pandas_lx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pandas_lx" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -135,6 +107,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\app\git2.23.0\My_Repository\数据分析\pandas_lx\pandas_exercise\template" />
       <recent name="D:\app\git2.23.0\My_Repository\数据分析\pandas_lx" />
     </key>
   </component>
@@ -173,28 +146,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pandas_lx" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/可视化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="时间序列2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pandas_lx" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,6 +160,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/时间序列2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas_lx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/可视化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,7 +369,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.时间序列2" />
-        <item itemvalue="Python.可视化" />
         <item itemvalue="Python.apply函数" />
         <item itemvalue="Python.了解数据" />
       </list>
@@ -417,38 +389,48 @@
       <workItem from="1615693338419" duration="16245000" />
       <workItem from="1615770307937" duration="17194000" />
       <workItem from="1615881487397" duration="15002000" />
-      <workItem from="1615960081701" duration="14714000" />
+      <workItem from="1615960081701" duration="19584000" />
+      <workItem from="1616245349000" duration="2811000" />
+      <workItem from="1616546826895" duration="12287000" />
+      <workItem from="1616640132492" duration="7000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;2021/3/17&quot;">
+      <created>1615984571494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615984571494</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93308000" />
+    <option name="totallyTimeSpent" value="113283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="27" width="1297" height="665" extended-state="0" />
-    <editor active="true" />
+    <frame x="-10" y="58" width="1292" height="714" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15334947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2617504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49952516" visible="true" weight="0.36022514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865228" weight="0.4664372" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7598499" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004748" side_tool="true" weight="0.19076306" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013477" side_tool="true" weight="0.7190635" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3295129" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32902184" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.024311183" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26354083" />
@@ -477,9 +459,13 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;2021/3/17&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;2021/3/17&quot;" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pandas_lx$.coverage" NAME="可视化 Coverage Results" MODIFIED="1615983414267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pandas_lx$2.coverage" NAME="时间序列2 Coverage Results" MODIFIED="1615984179864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pandas_lx$2.coverage" NAME="时间序列2 Coverage Results" MODIFIED="1616553892872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pandas_lx$apply.coverage" NAME="apply函数 Coverage Results" MODIFIED="1615709789484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -544,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/分组练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pandas_exercise/exercise_data/train.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -577,16 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/统计.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,27 +601,10 @@
         <state relative-caret-position="-44" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/pyecharts/charts/chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="182" column="8" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/pyecharts/charts/basic_charts/bar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/可视化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,15 +618,104 @@
     <entry file="file://$PROJECT_DIR$/pandas_exercise/exercise_data/Apple_stock.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/时间序列2.py">
+    <entry file="file://$PROJECT_DIR$/删除数据.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/pandas/core/tools/datetimes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="260">
+          <caret line="619" column="19" lean-forward="true" selection-start-line="610" selection-start-column="2" selection-end-line="619" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/删除数据.py">
+    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/pyecharts/charts/basic_charts/line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef8c04e8-57d5-49df-92d7-b48b1ecc617e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/765d8fca-0ffb-4605-b80b-3b25c3478f2c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a41592ac-af54-4b76-847e-14cadf734530/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2195f104-4fcf-48b6-b491-611014e7a305/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0f97f0e2-ce22-4c14-a2df-3c8e7d699f70/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8fe48c51-d871-4ee7-91ac-fa119e8bc3c0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48067987-8d40-43a9-81e6-a1c1a7633f2c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/统计.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分组练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/pyecharts/charts/chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_exercise/template/line.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3253">
+          <caret line="667" column="29" selection-start-line="667" selection-start-column="29" selection-end-line="667" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3.7/Lib/site-packages/pyecharts/charts/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时间序列2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

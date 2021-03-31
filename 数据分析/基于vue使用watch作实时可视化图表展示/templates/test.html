@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试watch</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="root">
+      <p>FullName: {{fullName}}</p>
+      <p>FirstName: <input type="text" v-model="firstName"></p>
+</div>
+<script>
+    new Vue({
+        el: '#root',
+        data: {
+            firstName: 'Dawei',
+            lastName: 'Lou',
+            fullName: ''
+        },
+        watch: {
+            // input值变化时，watch才执行
+            // firstName(newName, oldName) {
+            //     this.fullName = newName + ' ' + this.lastName;
+
+            //代表在 wacth 里声明了firstName这个方法之后立即先去执行handler方法，不能input值变化，先执行一下handler函数
+            // 如果设置了false，那么效果和上边例子一样
+            firstName:{handler(newName,oldName){this.fullName = newName + ' ' + this.lastName;},immediate:true}
+            }
+    })
+</script>
+
+</body>
+</html>

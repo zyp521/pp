@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+
+<body>
+    <div id="65e195a41f494479b5c980b285573936" class="chart-container" style="width:600px; height:300px;"></div>
+    <div id="65e195a41f494479b5c980b285573931" class="chart-container" style="width:600px; height:300px;"></div>
+    <!-- 创建图表容器 -->
+    <script>
+        <!--  初始化echarts图表 -->
+        var chart_65e195a41f494479b5c980b285573936 = echarts.init(
+            document.getElementById('65e195a41f494479b5c980b285573936'), 'white', {renderer: 'canvas'});
+        // 创建图表各个参数
+        var option_65e195a41f494479b5c980b285573936 = {
+          "animation": true,
+          "animationThreshold": 2000,
+          "animationDuration": 1000,
+          "animationEasing": "cubicOut",
+          "animationDelay": 0,
+          "animationDurationUpdate": 300,
+          "animationEasingUpdate": "cubicOut",
+          "animationDelayUpdate": 0,
+          "color": [
+             "#c23531",
+             "#2f4554",
+             "#61a0a8",
+             "#d48265",
+             "#749f83",
+             "#ca8622",
+             "#bda29a",
+             "#6e7074",
+             "#546570",
+             "#c4ccd3",
+             "#f05b72",
+             "#ef5b9c",
+             "#f47920",
+             "#905a3d",
+             "#fab27b",
+             "#2a5caa",
+             "#444693",
+             "#726930",
+             "#b2d235",
+             "#6d8346",
+             "#ac6767",
+             "#1d953f",
+             "#6950a1",
+             "#918597"
+             ],
+          "series": [
+        {
+            "type": "bar",
+            "name": "\u9500\u552e\u989d",
+            "legendHoverLink": true,
+            "data": [
+                84,
+                87,
+                45,
+                86,
+                64,
+                85,
+                118
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+          "legend": [
+        {
+            "data": [
+                "\u9500\u552e\u989d"
+            ],
+            "selected": {
+                "\u9500\u552e\u989d": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+          "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+          "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u8349\u8393",
+                "\u8292\u679c",
+                "\u8461\u8404",
+                "\u96ea\u68a8",
+                "\u897f\u74dc",
+                "\u67e0\u6aac",
+                "\u8f66\u5398\u5b50"
+            ]
+        }
+    ],
+          "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+          "title": [
+        {
+            "text": "\u6d4b\u8bd5\u5b9e\u4f8b",
+            "subtext": "xxxxx",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]};
+        // 为创建的echarst图表添加各设置
+        chart_65e195a41f494479b5c980b285573936.setOption(option_65e195a41f494479b5c980b285573936);
+    </script>
+    <script>
+        <!--  初始化echarts图表 -->
+        var chart_65e195a41f494479b5c980b285573931 = echarts.init(
+            document.getElementById('65e195a41f494479b5c980b285573931'), 'white', {renderer: 'canvas'});
+        // 创建图表各个参数
+        var option_65e195a41f494479b5c980b285573931 = {
+          "animation": true,
+          "animationThreshold": 2000,
+          "animationDuration": 1000,
+          "animationEasing": "cubicOut",
+          "animationDelay": 0,
+          "animationDurationUpdate": 300,
+          "animationEasingUpdate": "cubicOut",
+          "animationDelayUpdate": 0,
+          "color": [
+             "#2f4554",
+             "#c23531",
+             "#61a0a8",
+             "#d48265",
+             "#749f83",
+             "#ca8622",
+             "#bda29a",
+             "#6e7074",
+             "#546570",
+             "#c4ccd3",
+             "#f05b72",
+             "#ef5b9c",
+             "#f47920",
+             "#905a3d",
+             "#fab27b",
+             "#2a5caa",
+             "#444693",
+             "#726930",
+             "#b2d235",
+             "#6d8346",
+             "#ac6767",
+             "#1d953f",
+             "#6950a1",
+             "#918597"
+             ],
+          "series": [
+            {
+            "type": "bar",
+            "name": "\u9500\u552e\u989d",
+            "legendHoverLink": true,
+            "data": [
+                84,
+                87,
+                45,
+                86,
+                64,
+                85,
+                118
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+          "legend": [
+        {
+            "data": [
+                "\u9500\u552e\u989d"
+            ],
+            "selected": {
+                "\u9500\u552e\u989d": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+          "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+          "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u8349\u8393",
+                "\u8292\u679c",
+                "\u8461\u8404",
+                "\u96ea\u68a8",
+                "\u897f\u74dc",
+                "\u67e0\u6aac",
+                "\u8f66\u5398\u5b50"
+            ]
+        }
+    ],
+          "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+          "title": [
+        {
+            "text": "\u6d4b\u8bd5\u5b9e\u4f8b",
+            "subtext": "xxxxx",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]};
+        // 为创建的echarst图表添加各设置
+        chart_65e195a41f494479b5c980b285573931.setOption(option_65e195a41f494479b5c980b285573931);
+    </script>
+</body>
+<script>
+    <!--  Vue的函数与方法总汇  -->
+    var vm = new Vue({
+      el: '#app',// 控制区域
+      data: {},// 定义数据
+      methods: {},// 定义方法
+      filters: {},// 定义私有过滤器
+      directives: {},// 定义私有指令
+      components: { }, // 定义实例内部私有组件的
+
+      beforeCreate() { },// 实例刚在内存中被创建出来，此时，还没有初始化好 data 和 methods 属性
+      created() { }, //实例已经在内存中创建OK，此时 data 和 methods 已经创建OK，此时还没有开始 编译模板
+
+      beforeMount() { },// 此时已经完成了模板的编译，但是还没有挂载到页面中
+      mounted() { },// 此时，已经将编译好的模板，挂载到了页面指定的容器中显示
+
+      beforeUpdate() { },// 状态更新之前执行此函数， 此时 data 中的状态值是最新的，但是界面上显示的 数据还是旧的，因为此时还没有开始重新渲染DOM节点
+      updated() { },// 实例更新完毕之后调用此函数，此时 data 中的状态值 和 界面上显示的数据，都已经完成了更新，界面已经被重新渲染好了！
+
+      beforeDestroy() { },// 实例销毁之前调用。在这一步，实例仍然完全可用。
+      destroyed() { }, //Vue 实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。
+    })
+</script>
+</html>
