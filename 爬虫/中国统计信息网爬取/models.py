@@ -13,6 +13,8 @@ class Buttetin:
         self.release_date = release_date
         self.url = url
 
-    def save(self):
+    def key_ectract(self):
+        pass
 
+    def save(self):
         pass

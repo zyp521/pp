@@ -47,6 +47,19 @@ for i in provinces_urls[18:19]:
         buttetin_content_resposne.encoding = 'gb2312'
         etree = lxml.html.etree.HTML(buttetin_content_resposne.text)
         buttetin_content = ''.join(etree.xpath('//td[@id="text"]//text()'))
+        buttetin_page = int(etree.xpath('//td[@id="text"]/div[last()]/p/a[@title="Page"]/b[last()]/text()')[0])
+
+        # 如果报告多页，进行分页爬取
+        if buttetin_page >= 2:
+            for pg in range(2, buttetin_page + 1):
+                next_page_url = buttetin_url[:-5] + f'_{pg}' + buttetin_url[-5:]
+                next_page_content_response = requests.get(next_page_url, headers=header)
+                next_page_content_response.encoding = 'gb2312'
+                buttetin_content += ''.join(
+                    lxml.html.etree.HTML(next_page_content_response.text).xpath('//td[@id="text"]//text()'))
+                print(f'正在爬取{buttetin_name}第{pg}页')
+
+        print(f'page:{buttetin_page}')
         print(f'年度:{buttetin_year}')
         print(f'省份：{buttetin_province}')
         print(f'城市：{buttetin_city}')
@@ -56,10 +69,10 @@ for i in provinces_urls[18:19]:
         print(f'发布日期：{buttetin_release_date}')
         print('-------------------------------------------------------------------')
         res.append({'年度': buttetin_year, '省份': buttetin_province, '城市': buttetin_city, '报告名字': buttetin_name,
-         '报告链接': buttetin_url, '发布日期': buttetin_release_date, '报告内容': buttetin_content})
+                    '报告链接': buttetin_url, '发布日期': buttetin_release_date, '报告内容': buttetin_content})
 
 # 写入excel表格
-fileName = '公报爬取测试数据.xlsx'
+fileName = '公报爬取测试数据.xls'
 if not os.path.exists(fileName):
     write_to_excel(res, fileName)
 else:
